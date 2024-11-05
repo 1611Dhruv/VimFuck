@@ -1,0 +1,44 @@
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+
+
+============DATA===============
+&
+0
+87
+100
+33
+10
+&
+
+=============OUT===============
+
+Hello World!
+
+
+=============INP===============
+
+
+
+=============MACRO=============
+run  @s@e@r
+strt mi"eyl/MACRO/\VceW"ey$`i
+c+   'd`il
+c-   'd`il
+c[   'd"eyl/MACRO/if1n:g/evW"fy$`i@f
+c]   %
+c>   "eyl/geW"gy$`djmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
+c<   "eyl/geW"gy$`dkmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
+c.   `d0"by$`o:let @b=nr2char(@b)"bpmo`il
+c,
+
+g> O0
+g< o0
+
+if1 l
+0v %l
+
+if2 md`il
+& @gmd`il
+
+==============ASCII==============
+
