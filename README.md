@@ -44,7 +44,7 @@ Brainfuck is a minimalist, esoteric programming language with only eight command
 Here's a simple "Hello, World!" example in Brainfuck:
 
 ```brainfuck
-+[------->++<]>+.---.+++++++..+++.
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
 ```
 
 To execute this in Vim:
