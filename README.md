@@ -25,13 +25,33 @@ Brainfuck is a minimalist, esoteric programming language with only eight command
 
 ## Installation
 
-1. Clone this repository:
+1. Download vimfuck.vim using one of the following methods:
 
-   ```bash
-   git clone https://github.com/yourusername/vimfuck.git
-   ```
+### For Linux/macOS:
 
-2. (Optional) Add VimFuck macros to your `.vimrc` file for easy access.
+```bash
+curl -L https://raw.githubusercontent.com/1611Dhruv/VimFuck/main/vimfuck.vim -o vimfuck.vim
+```
+
+### For Windows (PowerShell):
+
+Open PowerShell and run this command:
+
+```powershell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/1611Dhruv/VimFuck/main/vimfuck.vim -OutFile vimfuck.vim
+```
+
+2. Open Vim with your brainfuck program loaded and call
+
+```
+:source /path/to/vimfuck.vim
+```
+
+3. Run VimFuck function to interpret your brainfuck program.
+
+```
+:call VimFuck()
+```
 
 ## Usage
 
