@@ -1,9 +1,5 @@
-,
+,.+.+.+.
 
-============DATA===============
-&
-0
-&
 
 =============OUT===============
 
@@ -12,6 +8,11 @@
 =============INP===============
 
 
+
+============DATA===============
+&
+16 
+&
 =============ASCII==============
 1 {}
 2 {}
@@ -152,7 +153,8 @@ c]   %
 c>   "eyl/geW"gy$`djmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
 c<   "eyl/geW"gy$`dkmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
 c.   `d0"by$/ASCII/bWv%"by`oAb%v%:s/{\|}//gmo`il
-c,   :let @i = getchar()
+c,   /MACRO/cntnW"cy$`u:echo "Please enter a character here using i  and continue with <Escape> @c"
+
 
 g> O0
 g< o0
@@ -163,4 +165,5 @@ if1 l
 if2 md`il
 & @gmd`il
 
+cnt "hx/ASCII/{h}_"hyW`d_C"hpmd`il@r
 
