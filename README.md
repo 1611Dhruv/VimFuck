@@ -97,6 +97,10 @@ to clean up.
 
 ## Demo
 
+https://github.com/user-attachments/assets/dd6838fc-c5a0-41d9-ad13-43951f9ef4ca
+
+
+
 ## Examples
 
 Here's a simple "Hello, World!" example in Brainfuck:
