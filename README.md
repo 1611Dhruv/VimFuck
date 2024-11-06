@@ -43,21 +43,24 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/1611Dhruv/VimFuck/main/
 
 2. Open Vim with your brainfuck program loaded and call
 
+if your brainfuck program is in the same directory as vimfuck.vim.
+
+```
+:source vimfuck.vim
+```
+
+or if your brainfuck program is in a different directory,
+
 ```
 :source /path/to/vimfuck.vim
-```
 
 3. Run VimFuck function to interpret your brainfuck program.
 
 ```
+
 :call Vimfuck()
-```
 
-## Usage
-
-1. Open Vim and load your Brainfuck program.
-2. Trigger the VimFuck macro to start parsing and executing the Brainfuck code.
-3. Output will be shown within Vim.
+````
 
 ## Examples
 
@@ -65,12 +68,7 @@ Here's a simple "Hello, World!" example in Brainfuck:
 
 ```brainfuck
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
-```
-
-To execute this in Vim:
-
-1. Open the file in Vim.
-2. Call the VimFuck macro (instructions for invoking the macro will depend on your configuration).
+````
 
 ## Contributing
 
