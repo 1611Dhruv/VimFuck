@@ -12,7 +12,7 @@ VimFuck is a Vim-based Brainfuck parser powered by Vim macros. This project leve
 - [Contributing](#contributing)
 - [License](#license)
 
-## See It In Action! ⚡
+## See It In Action! ⚡ {#demo}
 
 
 https://github.com/user-attachments/assets/132e79cd-73fe-4b6c-b30b-c5822f4feacb
