@@ -96,14 +96,14 @@ or if your brainfuck program is in a different directory,
 to clean up.
 
 ## Demo
-
-https://github.com/user-attachments/assets/dd6838fc-c5a0-41d9-ad13-43951f9ef4ca
-
+Here is a demonstration for User Input:
+https://github.com/user-attachments/assets/67e953f5-85cb-4cbc-a47e-ba1e3dff6ec6
 
 
 ## Examples
 
 Here's a simple "Hello, World!" example in Brainfuck:
+
 
 ```brainfuck
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
