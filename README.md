@@ -53,6 +53,7 @@ or if your brainfuck program is in a different directory,
 
 ```
 :source /path/to/vimfuck.vim
+```
 
 3. Run VimFuck function to interpret your brainfuck program.
 
@@ -60,7 +61,7 @@ or if your brainfuck program is in a different directory,
 
 :call Vimfuck()
 
-````
+```
 
 ## Examples
 
@@ -68,7 +69,7 @@ Here's a simple "Hello, World!" example in Brainfuck:
 
 ```brainfuck
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
-````
+```
 
 ## Contributing
 
