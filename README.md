@@ -76,12 +76,39 @@ or if your brainfuck program is in a different directory,
 :call Vimfuck()
 ```
 
+## Usage
+
+1. Once you have loaded the brainfuck program, source vimfuck.vim.
+2. Call VimFuck function to interpret your brainfuck program.
+3. You can ignore the initial errors on setup (known bug)
+4. In case your brainfuck programs asks for input, type the input and call the macro
+
+```
+@c
+```
+
+5. Once done, you can call the macro
+
+```
+@z
+```
+
+to clean up.
+
+## Demo
+
 ## Examples
 
 Here's a simple "Hello, World!" example in Brainfuck:
 
 ```brainfuck
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+```
+
+Here's a example to get 5 characters and print them:
+
+```brainfuck
++++++[->,.<]
 ```
 
 ## Contributing

@@ -1,9 +1,9 @@
-,.+.+.+.
+,+.+.+.
 
 
 =============OUT===============
 
-
+bcd
 
 =============INP===============
 
@@ -11,7 +11,7 @@
 
 ============DATA===============
 &
-16 
+100 
 &
 =============ASCII==============
 1 {}
@@ -138,32 +138,32 @@
 120 {x}
 121 {y}
 122 {z}
-123 {{}
+123 [{]
 124 {|}
-125 {}}
+125 [}]
 126 {~}
 127 {}
-=============MACRO=============
+=============ACRO=============
 run  @s@e@r
-strt mi"eyl/MACRO/\VceW"ey$`i
-c+   'd`il
-c-   'd`il
+strt `i"eyl/MACRO/\VceW"ey$`i
+c+   'd`ilmi
+c-   'd`ilmi
 c[   'd"eyl/MACRO/if1n:g/evW"fy$`i@f
 c]   %
 c>   "eyl/geW"gy$`djmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
 c<   "eyl/geW"gy$`dkmd"eyl/MACRO/if2nn:.,$g/eW"fy$`d@f
-c.   `d0"by$/ASCII/bWv%"by`oAb%v%:s/{\|}//gmo`il
-c,   /MACRO/cntnW"cy$`u:echo "Please enter a character here using i  and continue with <Escape> @c"
+c.   `d0"by$/ASCII/bWv%"by`oAbmb%x`bxAmo`ilmi
+c,   /MACRO/cntnW"cy$`u:echoerr "Please enter a character here using i  and continue with <Escape> @c"
 
 
 g> O0
 g< o0
 
-if1 l
-0v %l
+if1 lmi
+0v %lmi
 
-if2 md`il
-& @gmd`il
+if2 md`ilmi
+& @gmd`ilmi
 
-cnt "hx/ASCII/{h}_"hyW`d_C"hpmd`il@r
+cnt "hx/ASCII/\C{h}_"hyW`d_C"hpmd`ilmi@r
 

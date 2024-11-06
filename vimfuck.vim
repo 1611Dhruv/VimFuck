@@ -2,7 +2,8 @@
 function! Vimfuck()
   " Step 1: Replace all characters with Brainfuck-allowed characters
   " The allowed Brainfuck characters are kept, others are removed
-  " %s/[^+\-\[\]<>.,]//g
+%s/[^+\-\[\]<>.,\n]//g
+normal GVgggJ
 
 
   let lines = 
@@ -19,6 +20,7 @@ function! Vimfuck()
         \ '&'."\n".
         \ ''."\n".
         \ '=============INP==============='."\n".
+        \ ''."\n".
         \ ''."\n".
         \ ''."\n".
         \ '=============ASCII=============='."\n".
@@ -146,44 +148,45 @@ function! Vimfuck()
         \ '120 {x}'."\n".
         \ '121 {y}'."\n".
         \ '122 {z}'."\n".
-        \ '123 {{}'."\n".
+        \ '123 [{]'."\n".
         \ '124 {|}'."\n".
-        \ '125 {}}'."\n".
+        \ '125 [}]'."\n".
         \ '126 {~}'."\n".
         \ '127 {}'."\n".
         \ '=============MACRO============='."\n".
         \ 'run  @s@e@r'."\n".
-        \ 'strt mi"eyl/MACRO<CR>/\Vce<CR>W"ey$`i'."\n".
-        \ 'c+   ''d`il'."\n".
-        \ 'c-   ''d`il'."\n".
+        \ 'strt `i"eyl/MACRO<CR>/\Vce<CR>W"ey$`i'."\n".
+        \ 'c+   ''d`ilmi'."\n".
+        \ 'c-   ''d`ilmi'."\n".
         \ 'c[   ''d"eyl/MACRO<CR>/if1<CR>n:g/ev<CR>W"fy$`i@f'."\n".
-        \ 'c]   %'."\n".
+        \ 'c]   %mi'."\n".
         \ 'c>   "eyl/ge<CR>W"gy$`djmd"eyl/MACRO<CR>/if2<CR>nn:.,$g/e<CR>W"fy$`d@f'."\n".
         \ 'c<   "eyl/ge<CR>W"gy$`dkmd"eyl/MACRO<CR>/if2<CR>nn:.,$g/e<CR>W"fy$`d@f'."\n".
-        \ 'c.   `d0"by$/ASCII<CR>/b<CR>Wv%"by`oAb%v%:s/{\|}//g<CR>mo`il'."\n".
-        \ 'c,'."\n".
+        \ 'c.   `d0"by$/ASCII<CR>/b<CR>Wv%"by`oAbmb%x`bxAmo`ilmi'."\n".
+        \ 'c,   /MACRO<CR>/cnt<CR>nW"cy$`u:echoerr "Please enter a character here using i  and continue with <Escape> @c"<CR>'."\n".
         \ ''."\n".
         \ 'g> O0'."\n".
         \ 'g< o0'."\n".
         \ ''."\n".
-        \ 'if1 l'."\n".
-        \ '0v %l'."\n".
+        \ 'if1 lmi'."\n".
+        \ '0v %lmi'."\n".
         \ ''."\n".
-        \ 'if2 md`il'."\n".
-        \ '& @gmd`il'."\n".
+        \ 'if2 md`ilmi'."\n".
+        \ '& @gmd`ilmi'."\n".
         \ ''."\n".
+        \ 'cnt "hx/ASCII<CR>/\C{h}<CR>_"hyW`d_C"hpmd`ilmi@r'. "\n".
         \ ''."\n".
         \ ''."\n"
   for line in split(lines, "\n")
     call append(line('$'), line)
   endfor
   let @r = "/<CRct>lx"
-  normal 17@r
+  normal 22@r
   normal /DATAjjmd
   normal /OUTjjmo
+  normal /INPjjmu
   normal /strtW"sy$
   let @r = "@s@e@r"
   normal gg0mi@r
-  normal /DATA
-  .,$g/.*/d
+  let @z = "/DATA:.,$g/.*/d"
 endfunction
