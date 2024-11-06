@@ -16,6 +16,21 @@ VimFuck is a Vim-based Brainfuck parser powered by Vim macros. This project leve
 
 Brainfuck is a minimalist, esoteric programming language with only eight commands. VimFuck enables the interpretation of Brainfuck programs using Vim macros, showcasing the power and flexibility of Vim for non-traditional use cases. This project is a fun and unique way to explore both Vim macros and Brainfuck.
 
+### Brainfuck Commands
+
+Brainfuck has only eight commands, each of which performs a simple operation. Here's a quick overview of them:
+
+- **`>`**: Move the data pointer to the right (increment the memory cell pointer).
+- **`<`**: Move the data pointer to the left (decrement the memory cell pointer).
+- **`+`**: Increment the byte at the data pointer (increase the current memory cell by 1).
+- **`-`**: Decrement the byte at the data pointer (decrease the current memory cell by 1).
+- **`.`**: Output the value at the data pointer as a character (prints the ASCII character of the value).
+- **`,`**: Input a character and store it at the data pointer (stores the ASCII value of the input character).
+- **`[`**: Jump forward to the command after the matching `]` if the byte at the data pointer is 0.
+- **`]`**: Jump back to the command after the matching `[` if the byte at the data pointer is non-zero.
+
+Each of these commands operates on a simple array of memory cells, with the pointer starting at the first cell. These commands provide all the functionality necessary for Turing-complete computation, albeit in a very cryptic and minimalist way!
+
 ## Features
 
 - **Macro-based Parsing**: Uses Vim macros to interpret Brainfuck commands.
