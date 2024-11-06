@@ -58,9 +58,7 @@ or if your brainfuck program is in a different directory,
 3. Run VimFuck function to interpret your brainfuck program.
 
 ```
-
 :call Vimfuck()
-
 ```
 
 ## Examples
