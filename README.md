@@ -50,7 +50,7 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/1611Dhruv/VimFuck/main/
 3. Run VimFuck function to interpret your brainfuck program.
 
 ```
-:call VimFuck()
+:call Vimfuck()
 ```
 
 ## Usage
