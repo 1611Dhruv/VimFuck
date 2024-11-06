@@ -3,7 +3,7 @@
 VimFuck is a Vim-based Brainfuck parser powered by Vim macros. This project leverages Vim’s robust macro functionality to parse and interpret Brainfuck code, allowing users to execute Brainfuck programs directly within Vim.
 
 ## Table of Contents
-
+- [See It In Action! ⚡](#demo)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
@@ -11,6 +11,15 @@ VimFuck is a Vim-based Brainfuck parser powered by Vim macros. This project leve
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
+
+## See It In Action! ⚡
+
+
+https://github.com/user-attachments/assets/132e79cd-73fe-4b6c-b30b-c5822f4feacb
+
+
+https://github.com/user-attachments/assets/67e953f5-85cb-4cbc-a47e-ba1e3dff6ec6
+
 
 ## Introduction
 
@@ -94,13 +103,6 @@ or if your brainfuck program is in a different directory,
 ```
 
 to clean up.
-
-## Demo
-Here is a demonstration for User Input:
-
-
-https://github.com/user-attachments/assets/67e953f5-85cb-4cbc-a47e-ba1e3dff6ec6
-
 
 ## Examples
 
